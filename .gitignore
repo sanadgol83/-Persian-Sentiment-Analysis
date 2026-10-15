@@ -1,0 +1,88 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ==============================
+# Trained Models and Checkpoints
+# ==============================
+ParsBERT-sentiment-fa-finetuned/
+models/
+checkpoints/
+outputs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+**/checkpoint-*/
+
+# ==============================
+# Environment Variables and Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs and Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Build and Distribution
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
